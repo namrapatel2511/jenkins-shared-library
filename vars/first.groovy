@@ -1,6 +1,6 @@
-def call(name)
+def call( String name )
 {
   sh "date"
   sh "ifconfig"
-  echo "${name}"
+  echo "Received name is ${name}"
 }
